@@ -13,7 +13,7 @@ The goal of this project is to build a web application that uses various cloud s
 
 ## Most Recent DB content
 
-**Last First Information**
+* **Last - First - Information**
 * Antony Williams age=58
 * Alex	Daniel age=20  myid=123
 * Robert Williams age=30 myid=12456
