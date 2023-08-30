@@ -5,9 +5,9 @@ This project involves creating a website that demonstrates the integration of mu
 
 ## Overview
 
-The goal of this project is to build a web application that uses various cloud services to interact with data. The application allows users to load data from a specified URL into cloud storage (Amazon S3 and then parse and load the data into a NoSQL database (DynamoDB). Users can also query the data based on exact matches of first and last names.
+The goal of this project is to build a web application that uses various cloud services to interact with data. The application allows users to load data from a specified URL into cloud storage (Amazon S3) and then parse and load the data into a NoSQL database (DynamoDB). Users can also query the data based on exact matches of first and last names.
 
-- Clicking the "Load Data" button fetches data from a specified URL and stores it in both cloud storage and a NoSQL database.
+- Clicking the "Load Data" button fetches data from the specified URL and stores it in a NoSQL database.
 - The "Clear Data" button removes data from the cloud storage and empties or removes the NoSQL database.
 - Users can input first and last names and query the data for exact matches.
 - The website allows for repeated data loading without erasing existing records in the NoSQL database.
