@@ -1,6 +1,6 @@
 # QueryFromDB Project
 
-This project involves creating a website that demonstrates the integration of multiple cloud services, including object storage and NoSQL databases. The project is a functional web application is hosted in Microsoft Azure.
+This project involves creating a website that demonstrates the integration of multiple cloud services, including object storage and NoSQL databases. The project is a functional web application hosted in Microsoft Azure.
 
 ## Overview
 
@@ -11,7 +11,7 @@ The goal of this project is to build a web application that uses various cloud s
 - Users can input first and last names and query the data for exact matches.
 - The website allows for repeated data loading without erasing existing records in the NoSQL database.
 
-## Most Recent DB content
+## Most Recent DB content (2023)
 
 * **Last - First - Information**
 * Antony Williams age=58
