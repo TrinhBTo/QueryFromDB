@@ -5,26 +5,44 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <html>
-   <body>
-     <main>
+<body>
+    <main>
         <div class="px-4 py-3 my-2 text-center">
-            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/azure-icon.svg') }}" alt="Azure Logo" width="192" height="192"/>
-            <!-- <img  src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-            <h1 class="display-6 fw-bold text-primary">Welcome to Azure</h1>            
-          </div>
-        <form method="post" action="{{url_for('hello')}}">
-            <div class="col-md-6 mx-auto text-center">
-                <label for="name" class="form-label fw-bold fs-5">Could you please tell me your name?</label>
+            <h1 class="display-6 fw-bold text-primary">Searching Engine</h1>
+        </div>
+            <form method="post" action="{{url_for('result')}}">
+                <div class="col-md-6 mx-auto text-center">
+                    <div class="px-4 py-3 my-2 text-center">
+                        <label for="name" class="form-label fw-bold fs-3"> DB SIZE: {{size}} </label>
+                        <div class="px-4 py-3 my-2 text-center">
+                            <a href="{{ url_for('load') }}" class="btn btn-primary btn-lg px-4 gap-3">LOAD Latest Version of the Database</a>
 
-                <!-- <p class="lead mb-2">Could you please tell me your name?</p> -->
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center my-1">
-                    <input type="text" class="form-control" id="name" name="name" style="max-width: 256px;">
-                  </div>            
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
-                  <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Say Hello</button>
-                </div>            
-            </div>
-        </form>
-     </main>      
-   </body>
-</html>
+                        </div>
+
+                        <div class="px-4 py-3 my-2 text-center">
+                            <a href="{{ url_for('clear') }}" class="btn btn-primary btn-lg px-4 gap-3">CLEAR the Database</a>
+                        </div>
+
+                        <div class="px-4 py-3 my-2 text-center">
+                            <label for="name" class="form-label fw-bold fs-5">Please enter the first and last name of the person</label>
+                            <label for="name" class="form-label fw-bold fs-5">you want to search for! </label>
+                        </div>
+
+                        <label for="name" class="form-label fw-bold fs-5">First Name</label>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center my-1">
+                            <input type="text" class="form-control" id="fname" name="fname" style="max-width: 256px;">
+                        </div>
+
+                        <label for="name" class="form-label fw-bold fs-5">Last Name</label>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center my-1">
+                            <input type="text" class="form-control" id="lname" name="lname" style="max-width: 256px;">
+                        </div>
+
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
+                            <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">QUERY</button>
+                        </div>
+                    </div>
+</form>
+    </main>
+</body>
+</html>                               

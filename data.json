@@ -1,0 +1,47 @@
+{
+    "hum1": {
+        "firstname": "Brent",
+        "lastname": "Lee",
+        "myid": "123",
+        "phone": "123-456-7890",
+        "age": "35"
+    },
+    "hum2": {
+        "firstname": "Charles",
+        "lastname": "Brent",
+        "myid": "345",
+        "phone": "234-567-8901",
+        "age": "20"
+    },
+    "hum3": {
+        "firstname": "Charles",
+        "lastname": "Lee",
+        "age": "22"
+    },
+    "hum4": {
+        "firstname": "Robert",
+        "lastname": "Dylan",
+        "myid": "65764",
+        "phone": "4528769876",
+        "office": "uw1"
+    },
+    "hum5": {
+        "firstname": "Anna",
+        "lastname": "Karenina",
+        "age": "140",
+        "myid": "3456"
+    },
+    "hum6": {
+        "firstname": "Daniel",
+        "lastname": "Conway",
+        "office": "home",
+        "age": "23"
+    },
+    "hum7": {
+        "firstname": "Meow",
+        "lastname": "Kitty",
+        "office": "sandbox",
+        "age": "2",
+        "cuteness": "overload"
+    }
+}
