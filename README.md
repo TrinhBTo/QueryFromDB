@@ -23,3 +23,13 @@ The goal of this project is to build a web application that uses various cloud s
 * TC Boyle myid=876 age=54 jacket=yellow hair=red
 * JJ Octopi legs=8 age=34 myid=9076
 * Walter Bottle weight=8oz myid=7654
+
+## Original DB content (2023)
+
+* Lee  Brent myid=123  phone=123-456-7890  age=35
+* Brent Charles myid=345 phone=234-567-8901 age=20
+* Lee Charles age=22
+* Dylan Robert  myid=65764 phone=4528769876 office=uw1
+* Karenina Anna age=140 myid=3456
+* Conway Daniel office=home  age=23
+* Kitty Meow office=sandbox age=2 cuteness=overload
