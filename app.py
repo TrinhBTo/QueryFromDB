@@ -10,11 +10,10 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     print('Request for index page received')
-
-    #dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
+ 
     dynamodb = boto3.resource('dynamodb', region_name='us-west-2', aws_access_key_id=os.environ['AWS_ACCESS_KEY_ID'],
-    #aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'])
-    aws_secret_access_key=os.environ['AKIARHTAJAMP6IARJKMK'])    
+    aws_secret_access_key=os.environ['AWS_SECRET_ACCESS_KEY'])
+   
     table = dynamodb.Table('humanDB')
     currDatas = table.scan()
     listData = currDatas['Items']
